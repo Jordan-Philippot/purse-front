@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { device } from "utils/breakpoints";
 import {
-  COLOR_PRIMARY,
   COLOR_ERROR,
   COLOR_SUCCESS,
   COLOR_WARNING,
