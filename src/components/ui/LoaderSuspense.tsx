@@ -7,8 +7,8 @@ const StyledLoaderContainer = styled.span`
   display: inline-block;
   position: relative;
 
-  ::after,
-  ::before {
+  &::after,
+  &::before {
     content: "";
     box-sizing: border-box;
     width: 48px;
@@ -20,7 +20,7 @@ const StyledLoaderContainer = styled.span`
     top: 0;
     animation: animloader 2s linear infinite;
   }
-  ::after {
+  &::after {
     animation-delay: 1s;
   }
 
